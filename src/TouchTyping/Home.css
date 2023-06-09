@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section-home{
+    display: flex;
+    height:700px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 0;
+    flex-direction: column;
+    background: url(../aoFkM9.jpg) no-repeat scroll center / cover;
+}
+.section-home .home-page{
+    width: 40%;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    color: white;
+    z-index: 2;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px 3px rgb(121, 121, 121);
+    
+}
+.section-home .home-page::before{
+ content: "";
+ z-index: -2;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+border-radius:5px;
+left: 0;
+background-color: rgba(0, 0, 0,0.4);
+}
+.section-home .home-page .heading{
+    font-size: 40px;
+    margin: 20px 0;
+}
+.section-home .home-page  second-h{
+    font-size: 30px;
+    margin: 15px 0;
+}
+.section-home .home-page .sentence{
+    background-color: white;
+    width: auto;
+    margin: 10px 0;
+    border-radius: 20px;
+    font-size: 34px;
+}
+.section-home .home-page  input{
+    font-size: 23px;
+    margin: 10px 0;
+    padding: 7px 15px;
+    border-radius: 25px;
+}
+.final-output{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    background: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:  1px solid white;
+    border-radius: 1px;
+}
+.final-output .accuracy{
+    background: none;
+}
+.final-output .keycount{
+    padding: 10px 0;
+}
+.final-output button {
+    background-color: lightcoral;
+    padding: 5px 20px;
+    margin: 10px 0;
+}
