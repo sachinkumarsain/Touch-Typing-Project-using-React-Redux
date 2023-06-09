@@ -41,7 +41,7 @@ function Home() {
               >
                 <h1 className='keycount'>keyCount: {data.keyCount}</h1>
                 <h2 className='accuracy'>accuracy: {data.accuracy}%</h2>
-                <button onClick={dispatch(setDeleteData())}>Delete</button>
+                <button onClick={()=>dispatch(setDeleteData())}>Delete</button>
               </div> : ""
           }
         </div>

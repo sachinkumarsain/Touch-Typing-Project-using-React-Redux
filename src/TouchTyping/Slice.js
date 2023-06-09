@@ -49,7 +49,8 @@ export const slice = createSlice({
         state.keyCounted = false;
         state.inputValue = "";
         state.isCorrect = "";
-        state.accuracy = 0
+        state.accuracy = 0;
+
     }
   },
 });
