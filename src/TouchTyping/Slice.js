@@ -22,9 +22,21 @@ export const slice = createSlice({
       let senLength = sentenceArray.length;
       let randomIndex = "";
 
-      for (let i = 1; i <= 4; i++) {
+      for (let i = 1; i <= 20; i++) {
         let word = sentenceArray[Math.floor(Math.random() * senLength)];
         randomIndex += word;
+        if(i===4 || i===9 || i===16){
+          randomIndex+=" "
+        }
+        // if(i===9){
+        //   randomIndex+=" "
+        // }
+
+        // if(i===16){
+        //   randomIndex+=" "
+        // }
+
+
       }
       state.randomSentence = randomIndex;
     },

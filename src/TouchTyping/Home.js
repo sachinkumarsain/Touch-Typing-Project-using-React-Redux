@@ -24,7 +24,10 @@ function Home() {
           <h2
           className='sentence'
             style={{
-              color: data.isCorrect ? "green" : "red"
+              color: data.isCorrect ? "green" : "red",
+              animationName:data.isCorrect ? " ":"sent",
+              border: data.isCorrect ? " ": "1.5px solid red"
+              
             }}
           >{data.randomSentence}</h2>
           <input
