@@ -55,7 +55,7 @@ background-color: rgba(0, 0, 0,0.4);
     0%{transform: rotate(0deg) translateX(0);}
     25%{transform: rotate(2deg) translateX(10px);}
     50%{transform: rotate(0deg) translateX(0);}
-    75%{transform: rotate(-2deg) translateX(-10);}
+    75%{transform: rotate(-2deg) translateX(-10px);}
     100%{transform: rotate(0deg) translateX(0);}
 }
 .section-home .home-page  input{

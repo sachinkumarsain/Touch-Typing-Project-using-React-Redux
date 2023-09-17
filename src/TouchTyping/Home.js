@@ -19,7 +19,7 @@ function Home() {
     <>
       <section className='section-home'>
         <div className=' home-page'>
-          <h1 className='heading'>Touch Typing</h1>
+          <h1 className='heading'>Test Typing</h1>
           <h2 className='second-h'>Type the sentence below:</h2>
           <h2
           className='sentence'
